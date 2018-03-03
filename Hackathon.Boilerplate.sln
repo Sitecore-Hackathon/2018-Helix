@@ -1,8 +1,11 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdyenPayments", "AdyenPayments", "{EB0F82A1-BF92-4183-B409-AC36151F6CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.AdyenPayments", "src\Feature\AdyenPayments\code\Feature.AdyenPayments.csproj", "{9E52963A-E98C-41B8-BC26-926D8DAC5FB6}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}"
@@ -30,10 +33,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E52963A-E98C-41B8-BC26-926D8DAC5FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E52963A-E98C-41B8-BC26-926D8DAC5FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E52963A-E98C-41B8-BC26-926D8DAC5FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E52963A-E98C-41B8-BC26-926D8DAC5FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{EB0F82A1-BF92-4183-B409-AC36151F6CB8} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{9E52963A-E98C-41B8-BC26-926D8DAC5FB6} = {EB0F82A1-BF92-4183-B409-AC36151F6CB8}
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
